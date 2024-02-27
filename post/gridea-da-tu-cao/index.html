@@ -1,0 +1,174 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gridea大吐槽 | Gridea</title>
+<link rel="shortcut icon" href="https://changerculture.com/favicon.ico?v=1709022934402">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://changerculture.com/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Gridea大吐槽 | Gridea - Atom Feed" href="https://changerculture.com/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="getgridea/gridea: ✍️ A static blog writing client (一个静态博客写作客户端)
+看Github仓库，已经很久不更新了，最新版本的0.93还有一个负优化：为了避免OneDriver等工具同步时，..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://changerculture.com">
+  <img class="avatar" src="https://changerculture.com/images/avatar.png?v=1709022934402" alt="">
+  </a>
+  <h1 class="site-title">
+    Gridea
+  </h1>
+  <p class="site-description">
+    温故而知新
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              Gridea大吐槽
+            </h2>
+            <div class="post-info">
+              <span>
+                2024-02-27
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <p><a href="https://github.com/getgridea/gridea">getgridea/gridea: ✍️ A static blog writing client (一个静态博客写作客户端)</a></p>
+<p>看Github仓库，已经很久不更新了，最新版本的0.93还有一个负优化：为了避免OneDriver等工具同步时，会把.git文件夹同步，0.93版本后Git提交记录仅保留最新的一条。</p>
+<p>这简直是灾难性的更新，看issue很多人太久没用了，不明所以更新到0.93后（比如我），点同步后本来是期待从远程拉代码下来更新本地仓库及文章，结果变成将本地的提交强制覆盖原仓库，导致原来的配置、文章全没了，还无法从历史commit恢复，简直了。</p>
+<p>现在有几种方案：</p>
+<ol>
+<li>把Gridea仓库Fork下来自己改改，改出这个提交保留commit的功能</li>
+<li>降级到0.92版本，代价是后续更新无缘了（但仓库最新的commit停留在2022年，估计也不再更新）</li>
+<li>找其它方案，比如用obsidian记录写文章然后同步到博客程序</li>
+</ol>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://changerculture.com/post/da-tu-cao/">
+              <h3 class="post-title">
+                测试测试
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://changerculture.com/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
