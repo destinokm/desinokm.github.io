@@ -6,7 +6,14 @@
     <description>Recent content in Posts on 慵懒D大调</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Tue, 27 Feb 2024 17:15:26 +0800</lastBuildDate>
     <atom:link href="https://destinokm.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>测试</title>
+      <link>https://destinokm.github.io/posts/demo/</link>
+      <pubDate>Tue, 27 Feb 2024 17:15:26 +0800</pubDate>
+      <guid>https://destinokm.github.io/posts/demo/</guid>
+      <description>你哈为</description>
+    </item>
   </channel>
 </rss>
