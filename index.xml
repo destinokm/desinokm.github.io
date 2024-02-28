@@ -25,6 +25,14 @@ Gridea 检测远程连接失败_悄悄地努力的博客-CSDN博客_gridea远程
     </item>
     <item>
       <title>Gridea</title>
+      <link>https://destinokm.github.io/posts/%E5%91%BD%E4%BB%A4%E8%A1%8Czsh/</link>
+      <pubDate>Tue, 27 Feb 2024 17:42:29 +0800</pubDate>
+      <guid>https://destinokm.github.io/posts/%E5%91%BD%E4%BB%A4%E8%A1%8Czsh/</guid>
+      <description>wting/autojump: A cd command that learns - easily navigate directories from the command line PS: centos安装autojump-zsh
+sudo apt install zsh sh -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&amp;#34; # zinit bash -c &amp;#34;$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)&amp;#34; sudo chsh ubuntu # 修改~/.zshrc ZSH_THEME=&amp;#34;afowler&amp;#34; # Load Oh MY Zsh Plugins #git alias（推荐） zinit snippet OMZ::plugins/git/git.plugin.zsh #解压 zinit snippet OMZ::plugins/extract/extract.plugin.zsh #history格式化及alias zinit snippet OMZ::lib/history.zsh #如果命令不存在，会提醒你可能缺失的依赖 zinit snippet OMZ::plugins/command-not-found/command-not-found.plugin.zsh #跳转目录 #sublime alias zinit snippet OMZ::plugins/sublime/sublime.plugin.zsh # Zinit Ice Load #p10k主题 zinit ice depth=1; zinit light romkatv/powerlevel10k #命令高亮 zinit ice lucid wait=&amp;#39;0&amp;#39; atinit=&amp;#39;zpcompinit&amp;#39;; zinit light zdharma/fast-syntax-highlighting #命令补全建议 zinit ice wait lucid atload&amp;#39;_zsh_autosuggest_start&amp;#39;; zinit light zsh-users/zsh-autosuggestions #命令补全 zinit ice lucid wait=&amp;#39;0&amp;#39;; zinit light zsh-users/zsh-completions #Alias提醒 zinit ice lucid wait=&amp;#39;0&amp;#39;; zinit light djui/alias-tips # Export export HOMEBREW_BOTTLE_DOMAIN=&amp;#34;https://mirrors.</description>
+    </item>
+    <item>
+      <title>Gridea</title>
       <link>https://destinokm.github.io/posts/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Tue, 27 Feb 2024 17:42:29 +0800</pubDate>
       <guid>https://destinokm.github.io/posts/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</guid>
