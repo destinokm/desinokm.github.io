@@ -60,7 +60,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://destinokm.github.io/en/posts/tech/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-02-27T17:42:29+08:00" />
-<meta property="article:modified_time" content="2024-02-29T09:46:59+00:00" />
+<meta property="article:modified_time" content="2024-02-29T10:00:08+00:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="折腾博客"/>
@@ -103,11 +103,11 @@
   "keywords": [
     
   ],
-  "articleBody": "我的需求 部署简单 不想输命令，最好有UI\n插件丰富 像评论、统计啥的插件，我可以暂时不用，但要有，不想到时候折腾时自己开发\n解析速度 要快，打开一篇文章花个几秒，花里胡哨的不要。可以结合CDN啥的优化，但不要太复杂，我懒\n版本管理 最好支持使用Github作为仓库进行版本管理，不然出问题回滚不了太蛋疼了，同时可以使用Github Action也会更方便、灵活一些\n隐私设置 文章最好有草稿、私人、公开这几个状态，有些文章不想公开出去\n一键同步 这是额外需求，最好可以像微信公众号同步助手那样支持一次发布，同步到多个平台\n写作环境 只电脑就行，一般也不会在手机或者其它终端写文章，没这个习惯\n多端同步 家里、公司不同终端可以自动同步\n开源框架 hugo 静态博客，结合github托管\nGithub Pages + Hugo 搭建个人博客 - 渣渣的夏天\nHugo + Github Pages 搭建个人博客 | Robin 的个人主页\nhexo 静态博客，据说几百篇文章时会很慢。 因为没有后端，所以没有浏览数统计、没有评论功能、没有搜索功能，要接外部的 没有一键部署，要安装一套环境git + node.js + vscode，然后敲命令部署\nghost 动态博客，同上，而且插件不丰富？似乎有些槽点\nwordpress 丰富的社区生态及插件，很臃肿，学习成本大些 比较占服务器资源 1G内存 静态博客的最佳实践？Hugo和Gridea我不用啦！神器WP2Static - LuoJi.men\nGridea 静态博客，有客户端\n",
-  "wordCount" : "547",
+  "articleBody": "我的需求 部署简单 不想输命令，最好有UI\n插件丰富 像评论、统计啥的插件，我可以暂时不用，但要有，不想到时候折腾时自己开发\n解析速度 要快，打开一篇文章花个几秒，花里胡哨的不要。可以结合CDN啥的优化，但不要太复杂，我懒\n版本管理 最好支持使用Github作为仓库进行版本管理，不然出问题回滚不了太蛋疼了，同时可以使用Github Action也会更方便、灵活一些\n隐私设置 文章最好有草稿、私人、公开这几个状态，有些文章不想公开出去\n一键同步 这是额外需求，最好可以像微信公众号同步助手那样支持一次发布，同步到多个平台\n写作环境 只电脑就行，一般也不会在手机或者其它终端写文章，没这个习惯\n多端同步 家里、公司不同终端可以自动同步\n开源框架 hugo 静态博客，结合github托管\nGithub Pages + Hugo 搭建个人博客 - 渣渣的夏天\nHugo + Github Pages 搭建个人博客 | Robin 的个人主页\nhexo 静态博客，据说几百篇文章时会很慢。 因为没有后端，所以没有浏览数统计、没有评论功能、没有搜索功能，要接外部的 没有一键部署，要安装一套环境git + node.js + vscode，然后敲命令部署\nghost 动态博客，同上，而且插件不丰富? 似乎有些槽点\nwordpress 丰富的社区生态及插件，很臃肿，学习成本大些 比较占服务器资源 1G内存 可借助神器WP2Static静态化\nGridea 静态博客，有客户端, 详情看另一篇[[Gridea]]\n最终方案 Obsidian+Hugo+Github Page同步方案\n",
+  "wordCount" : "555",
   "inLanguage": "en",
   "datePublished": "2024-02-27T17:42:29+08:00",
-  "dateModified": "2024-02-29T09:46:59.793758668Z",
+  "dateModified": "2024-02-29T10:00:08.533047312Z",
   "author":{
     "@type": "Person",
     "name": "Destino74"
@@ -218,7 +218,7 @@
     <h1 class="post-title entry-hint-parent">
       折腾博客
     </h1>
-    <div class="post-meta">2 min&nbsp;·&nbsp;547 words&nbsp;·&nbsp;Destino74
+    <div class="post-meta">2 min&nbsp;·&nbsp;555 words&nbsp;·&nbsp;Destino74
 
 </div>
   </header> <div class="toc">
@@ -260,7 +260,9 @@
                 <li>
                     <a href="#wordpress" aria-label="wordpress">wordpress</a></li>
                 <li>
-                    <a href="#gridea" aria-label="Gridea">Gridea</a>
+                    <a href="#gridea" aria-label="Gridea">Gridea</a></li>
+                <li>
+                    <a href="#%e6%9c%80%e7%bb%88%e6%96%b9%e6%a1%88" aria-label="最终方案">最终方案</a>
                 </li>
             </ul>
             </li>
@@ -296,13 +298,15 @@
 因为没有后端，所以<strong>没有浏览数统计、没有评论功能、没有搜索功能</strong>，要接外部的
 没有一键部署，要安装一套环境git + node.js + vscode，然后敲命令部署</p>
 <h3 id="ghost">ghost<a hidden class="anchor" aria-hidden="true" href="#ghost">#</a></h3>
-<p>动态博客，同上，而且插件不丰富？似乎有些槽点</p>
+<p>动态博客，同上，而且插件不丰富? 似乎有些槽点</p>
 <h3 id="wordpress">wordpress<a hidden class="anchor" aria-hidden="true" href="#wordpress">#</a></h3>
 <p>丰富的社区生态及插件，很臃肿，学习成本大些
 <strong>比较占服务器资源 1G内存</strong>
-<a href="https://luoji.men/2022/04/best-practices-for-static-blogging-hugo-and-gridea-i-dont-need-them-artifact-wp2static/">静态博客的最佳实践？Hugo和Gridea我不用啦！神器WP2Static - LuoJi.men</a></p>
+可借助<a href="https://luoji.men/2022/04/best-practices-for-static-blogging-hugo-and-gridea-i-dont-need-them-artifact-wp2static/">神器WP2Static</a>静态化</p>
 <h3 id="gridea">Gridea<a hidden class="anchor" aria-hidden="true" href="#gridea">#</a></h3>
-<p>静态博客，有客户端</p>
+<p>静态博客，有客户端, 详情看另一篇[[Gridea]]</p>
+<h3 id="最终方案">最终方案<a hidden class="anchor" aria-hidden="true" href="#最终方案">#</a></h3>
+<p><a href="https://destinokm.github.io/en/posts/obsidian+hugo+github-page%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/">Obsidian+Hugo+Github Page同步方案</a></p>
 
 
   </div>

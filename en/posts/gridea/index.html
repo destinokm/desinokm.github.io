@@ -60,7 +60,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://destinokm.github.io/en/posts/gridea/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-02-27T17:42:29+08:00" />
-<meta property="article:modified_time" content="2024-02-29T09:46:59+00:00" />
+<meta property="article:modified_time" content="2024-02-29T10:00:08+00:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Gridea"/>
@@ -97,11 +97,11 @@
   "keywords": [
     
   ],
-  "articleBody": "缺陷 看Gridea Github，已经很久不更新了，最新版本的0.93还有一个负优化：为了避免OneDriver等工具同步时，会把.git文件夹同步，0.93版本后Git提交记录仅保留最新的一条。\n这简直是灾难性的更新，看issue很多人太久没用了，不明所以更新到0.93后（比如我），点同步后本来是期待从远程拉代码下来更新本地仓库及文章，结果变成将本地的提交强制覆盖原仓库，导致原来的配置、文章全没了，还无法从历史commit恢复，简直了。\n现在有几种方案：\n把Gridea仓库Fork下来自己改改，改出这个提交保留commit的功能\n降级到0.92版本，代价是后续更新无缘了（但仓库最新的commit停留在2022年，估计也不再更新）\n找其它方案，比如用obsidian记录写文章然后同步到博客程序\n",
-  "wordCount" : "345",
+  "articleBody": "缺陷 看Gridea Github，已经很久不更新了，最新版本的0.93还有一个负优化：为了避免OneDriver等工具同步时，会把.git文件夹同步，0.93版本后Git提交记录仅保留最新的一条。\n这简直是灾难性的更新，看issue很多人太久没用了，不明所以更新到0.93后（比如我），点同步后本来是期待从远程拉代码下来更新本地仓库及文章，结果变成将本地的提交强制覆盖原仓库，导致原来的配置、文章全没了，还无法从历史commit恢复，简直了。\n方案 把Gridea仓库Fork下来自己改改，改出这个提交保留commit的功能 降级到0.92版本，代价是后续更新无缘了（但仓库最新的commit停留在2022年，估计也不再更新） 找其它方案，比如用obsidian记录写文章然后同步到博客程序 ",
+  "wordCount" : "339",
   "inLanguage": "en",
   "datePublished": "2024-02-27T17:42:29+08:00",
-  "dateModified": "2024-02-29T09:46:59.793758668Z",
+  "dateModified": "2024-02-29T10:00:08.533047312Z",
   "author":{
     "@type": "Person",
     "name": "Destino74"
@@ -212,7 +212,7 @@
     <h1 class="post-title entry-hint-parent">
       Gridea
     </h1>
-    <div class="post-meta">1 min&nbsp;·&nbsp;345 words&nbsp;·&nbsp;Destino74
+    <div class="post-meta">1 min&nbsp;·&nbsp;339 words&nbsp;·&nbsp;Destino74
 
 </div>
   </header> <div class="toc">
@@ -223,8 +223,13 @@
 
         <div class="inner"><ul>
                 <li>
-                    <a href="#%e7%bc%ba%e9%99%b7" aria-label="缺陷">缺陷</a>
+                    <a href="#%e7%bc%ba%e9%99%b7" aria-label="缺陷">缺陷</a><ul>
+                        
+                <li>
+                    <a href="#%e6%96%b9%e6%a1%88" aria-label="方案">方案</a>
                 </li>
+            </ul>
+            </li>
             </ul>
         </div>
     </details>
@@ -233,17 +238,11 @@
   <div class="post-content"><h2 id="缺陷">缺陷<a hidden class="anchor" aria-hidden="true" href="#缺陷">#</a></h2>
 <p>看<a href="https://github.com/getgridea/gridea">Gridea Github</a>，已经很久不更新了，最新版本的0.93还有一个负优化：为了避免OneDriver等工具同步时，会把.git文件夹同步，0.93版本后Git提交记录仅保留最新的一条。</p>
 <p>这简直是灾难性的更新，看issue很多人太久没用了，不明所以更新到0.93后（比如我），点同步后本来是期待从远程拉代码下来更新本地仓库及文章，结果变成将本地的提交强制覆盖原仓库，导致原来的配置、文章全没了，还无法从历史commit恢复，简直了。</p>
-<p>现在有几种方案：</p>
+<h3 id="方案">方案<a hidden class="anchor" aria-hidden="true" href="#方案">#</a></h3>
 <ol>
-<li>
-<p>把Gridea仓库Fork下来自己改改，改出这个提交保留commit的功能</p>
-</li>
-<li>
-<p>降级到0.92版本，代价是后续更新无缘了（但仓库最新的commit停留在2022年，估计也不再更新）</p>
-</li>
-<li>
-<p>找其它方案，比如用obsidian记录写文章然后同步到博客程序</p>
-</li>
+<li>把Gridea仓库Fork下来自己改改，改出这个提交保留commit的功能</li>
+<li>降级到0.92版本，代价是后续更新无缘了（但仓库最新的commit停留在2022年，估计也不再更新）</li>
+<li>找其它方案，比如用obsidian记录写文章然后同步到博客程序</li>
 </ol>
 
 
