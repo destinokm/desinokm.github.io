@@ -23,11 +23,25 @@
       <description>这是模板内容</description>
     </item>
     <item>
-      <title>命令行ZSH</title>
-      <link>https://destinokm.github.io/en/posts/%E5%91%BD%E4%BB%A4%E8%A1%8Czsh/</link>
+      <title>Obsidian&#43;Hugo&#43;Github Page同步方案</title>
+      <link>https://destinokm.github.io/en/posts/obsidian&#43;hugo&#43;github-page%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/</link>
       <pubDate>Tue, 27 Feb 2024 17:42:29 +0800</pubDate>
-      <guid>https://destinokm.github.io/en/posts/%E5%91%BD%E4%BB%A4%E8%A1%8Czsh/</guid>
-      <description>我的ZSH配置</description>
+      <guid>https://destinokm.github.io/en/posts/obsidian&#43;hugo&#43;github-page%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/</guid>
+      <description>这个方案真好用</description>
+    </item>
+    <item>
+      <title>折腾博客</title>
+      <link>https://destinokm.github.io/en/posts/gridea/</link>
+      <pubDate>Tue, 27 Feb 2024 17:42:29 +0800</pubDate>
+      <guid>https://destinokm.github.io/en/posts/gridea/</guid>
+      <description>试用Gridea并吐槽</description>
+    </item>
+    <item>
+      <title>折腾博客</title>
+      <link>https://destinokm.github.io/en/posts/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Tue, 27 Feb 2024 17:42:29 +0800</pubDate>
+      <guid>https://destinokm.github.io/en/posts/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</guid>
+      <description>闲来无事，折腾博客</description>
     </item>
   </channel>
 </rss>
