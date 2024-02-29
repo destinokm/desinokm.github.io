@@ -34,7 +34,7 @@
       <link>https://destinokm.github.io/en/posts/%E5%91%BD%E4%BB%A4%E8%A1%8Czsh/</link>
       <pubDate>Tue, 27 Feb 2024 17:42:29 +0800</pubDate>
       <guid>https://destinokm.github.io/en/posts/%E5%91%BD%E4%BB%A4%E8%A1%8Czsh/</guid>
-      <description>wting/autojump: A cd command that learns - easily navigate directories from the command line PS: centos安装autojump-zsh 1 2 3 4 5 6 7 8 9 10 11 sudo apt install zsh sh -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&amp;#34; # zinit bash -c &amp;#34;$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)&amp;#34; sudo chsh ubuntu # 修</description>
+      <description>我的ZSH配置</description>
     </item>
     <item>
       <title>折腾博客</title>
