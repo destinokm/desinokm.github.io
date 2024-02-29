@@ -6,21 +6,6 @@
     <description>Recent content in Tags on 创果自留地</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Feb 2024 16:23:30 +0000</lastBuildDate>
     <atom:link href="https://destinokm.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>标签1</title>
-      <link>https://destinokm.github.io/en/tags/%E6%A0%87%E7%AD%BE1/</link>
-      <pubDate>Wed, 28 Feb 2024 16:23:30 +0000</pubDate>
-      <guid>https://destinokm.github.io/en/tags/%E6%A0%87%E7%AD%BE1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>标签2</title>
-      <link>https://destinokm.github.io/en/tags/%E6%A0%87%E7%AD%BE2/</link>
-      <pubDate>Wed, 28 Feb 2024 16:23:30 +0000</pubDate>
-      <guid>https://destinokm.github.io/en/tags/%E6%A0%87%E7%AD%BE2/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
