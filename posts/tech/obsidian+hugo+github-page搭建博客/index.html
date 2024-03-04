@@ -60,7 +60,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://destinokm.github.io/posts/tech/obsidian&#43;hugo&#43;github-page%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-02-28T16:23:30+00:00" />
-<meta property="article:modified_time" content="2024-03-04T07:19:15+00:00" />
+<meta property="article:modified_time" content="2024-03-04T07:20:51+00:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Obsidian&#43;Hugo&#43;Github Page搭建博客"/>
@@ -107,7 +107,7 @@
   "wordCount" : "1219",
   "inLanguage": "zh",
   "datePublished": "2024-02-28T16:23:30Z",
-  "dateModified": "2024-03-04T07:19:15.669377644Z",
+  "dateModified": "2024-03-04T07:20:51.021946667Z",
   "author":{
     "@type": "Person",
     "name": "Destino74"
@@ -258,8 +258,8 @@
 </ol>
 <h2 id="github-action配置">Github Action配置<a hidden class="anchor" aria-hidden="true" href="#github-action配置">#</a></h2>
 <ol>
-<li>检出仓库obsidian<code>最近1次</code>提交的历史记录，检出路径设为obsidian</li>
-<li>检出仓库hugoBlog<code>所有记录</code>，检出路径设为hugoBlog</li>
+<li>检出仓库obsidian<code>最近1次</code>提交的历史记录，检出路径设为<code>obsidian</code></li>
+<li>检出仓库hugoBlog<code>所有记录</code>，检出路径设为<code>hugoBlog</code></li>
 <li>运行python脚本，遍历检出的记录文件，检测是否包含draft:false, 如果是的话, 将该文件复制到hugoBlog的content/posts文件夹下</li>
 <li>在hugoBlog目录下运行hugo, 构建静态文件</li>
 <li>使用 GitHub Pages 的官方 action，用于部署静态网站到 GitHub Pages</li>
@@ -391,7 +391,7 @@
 </div>
 </div><h2 id="obsidian配置">Obsidian配置<a hidden class="anchor" aria-hidden="true" href="#obsidian配置">#</a></h2>
 <h2 id="hugo配置">Hugo配置<a hidden class="anchor" aria-hidden="true" href="#hugo配置">#</a></h2>
-<p>内容较多，详见<a href="https://destinokm.github.io/en/posts/tech/hugo%E9%85%8D%E7%BD%AE/">Hugo配置</a></p>
+<p>内容较多，详见<a href="https://destinokm.github.io/posts/tech/hugo%E9%85%8D%E7%BD%AE/">Hugo配置</a></p>
 <h2 id="待改进">待改进<a hidden class="anchor" aria-hidden="true" href="#待改进">#</a></h2>
 <ol>
 <li>目前<code>copy_draft_posts.py</code>脚本会扫描obsidian所有的文章, 然后拷贝到hugoBlog文件夹下进行构建, 但文章中的引用关系, 比如图片没有处理. 后续是考虑用图床, 还是将图片上传到仓库修复引用路径? 嗯, 待定</li>
