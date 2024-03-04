@@ -6,14 +6,21 @@
     <description>Recent content in 记录 on 创果自留地</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 04 Mar 2024 10:23:59 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 04 Mar 2024 15:11:55 +0800</lastBuildDate>
     <atom:link href="https://destinokm.github.io/en/posts/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo配置</title>
       <link>https://destinokm.github.io/en/posts/tech/hugo%E9%85%8D%E7%BD%AE/</link>
-      <pubDate>Mon, 04 Mar 2024 10:23:59 +0800</pubDate>
+      <pubDate>Mon, 04 Mar 2024 15:11:55 +0800</pubDate>
       <guid>https://destinokm.github.io/en/posts/tech/hugo%E9%85%8D%E7%BD%AE/</guid>
       <description>Hugo配置</description>
+    </item>
+    <item>
+      <title>折腾博客</title>
+      <link>https://destinokm.github.io/en/posts/tech/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Mon, 04 Mar 2024 15:11:55 +0800</pubDate>
+      <guid>https://destinokm.github.io/en/posts/tech/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</guid>
+      <description>闲来无事，折腾博客</description>
     </item>
     <item>
       <title>Quasar</title>
@@ -30,13 +37,6 @@
       <description>试用Gridea并否决该方案</description>
     </item>
     <item>
-      <title>折腾博客</title>
-      <link>https://destinokm.github.io/en/posts/tech/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Fri, 01 Mar 2024 08:33:34 +0000</pubDate>
-      <guid>https://destinokm.github.io/en/posts/tech/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</guid>
-      <description>闲来无事，折腾博客</description>
-    </item>
-    <item>
       <title>命令行ZSH</title>
       <link>https://destinokm.github.io/en/posts/tech/%E5%91%BD%E4%BB%A4%E8%A1%8Czsh/</link>
       <pubDate>Fri, 01 Mar 2024 03:05:02 +0000</pubDate>
@@ -48,6 +48,13 @@
       <link>https://destinokm.github.io/en/posts/tech/obsidian&#43;hugo&#43;github-page%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/</link>
       <pubDate>Wed, 28 Feb 2024 16:23:30 +0000</pubDate>
       <guid>https://destinokm.github.io/en/posts/tech/obsidian&#43;hugo&#43;github-page%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/</guid>
+      <description>自己研究的一套以Obsidian为主的写博客方案</description>
+    </item>
+    <item>
+      <title>Obsidian&#43;Hugo&#43;Github Page搭建博客</title>
+      <link>https://destinokm.github.io/en/posts/tech/obsidian&#43;hugo&#43;github-page%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Wed, 28 Feb 2024 16:23:30 +0000</pubDate>
+      <guid>https://destinokm.github.io/en/posts/tech/obsidian&#43;hugo&#43;github-page%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description>自己研究的一套以Obsidian为主的写博客方案</description>
     </item>
   </channel>
