@@ -6,8 +6,15 @@
     <description>Recent content in 环境搭建 on 创果自留地</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 Mar 2024 08:40:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Mar 2024 09:39:00 +0800</lastBuildDate>
     <atom:link href="https://destinokm.github.io/en/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quasar</title>
+      <link>https://destinokm.github.io/en/posts/tech/quasar/</link>
+      <pubDate>Mon, 04 Mar 2024 09:39:00 +0800</pubDate>
+      <guid>https://destinokm.github.io/en/posts/tech/quasar/</guid>
+      <description>Quasar，基于 Vue.js 的全栈框架</description>
+    </item>
     <item>
       <title>Hugo配置</title>
       <link>https://destinokm.github.io/en/posts/tech/hugo%E9%85%8D%E7%BD%AE/</link>
