@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>创果自留地</title>
+    <link>https://destinokm.github.io/</link>
+    <description>Recent content on 创果自留地</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 04 Mar 2024 07:19:15 +0000</lastBuildDate>
+    <atom:link href="https://destinokm.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quasar</title>
+      <link>https://destinokm.github.io/posts/tech/quasar/</link>
+      <pubDate>Mon, 04 Mar 2024 15:19:15 +0800</pubDate>
+      <guid>https://destinokm.github.io/posts/tech/quasar/</guid>
+      <description>Quasar，基于 Vue.js 的全栈框架</description>
+    </item>
+    <item>
+      <title>折腾博客</title>
+      <link>https://destinokm.github.io/posts/tech/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Mon, 04 Mar 2024 15:14:35 +0800</pubDate>
+      <guid>https://destinokm.github.io/posts/tech/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</guid>
+      <description>闲来无事，折腾博客</description>
+    </item>
+    <item>
+      <title>Hugo配置</title>
+      <link>https://destinokm.github.io/posts/tech/hugo%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Mon, 04 Mar 2024 15:11:55 +0800</pubDate>
+      <guid>https://destinokm.github.io/posts/tech/hugo%E9%85%8D%E7%BD%AE/</guid>
+      <description>Hugo配置</description>
+    </item>
+    <item>
+      <title>🙋🏻‍♂️关于</title>
+      <link>https://destinokm.github.io/about/</link>
+      <pubDate>Mon, 04 Mar 2024 11:14:56 +0800</pubDate>
+      <guid>https://destinokm.github.io/about/</guid>
+      <description>记录</description>
+    </item>
+    <item>
+      <title>吐槽Gridea</title>
+      <link>https://destinokm.github.io/posts/tech/%E5%90%90%E6%A7%BDgridea/</link>
+      <pubDate>Fri, 01 Mar 2024 08:33:34 +0000</pubDate>
+      <guid>https://destinokm.github.io/posts/tech/%E5%90%90%E6%A7%BDgridea/</guid>
+      <description>试用Gridea并否决该方案</description>
+    </item>
+    <item>
+      <title>命令行ZSH</title>
+      <link>https://destinokm.github.io/posts/tech/%E5%91%BD%E4%BB%A4%E8%A1%8Czsh/</link>
+      <pubDate>Fri, 01 Mar 2024 03:05:02 +0000</pubDate>
+      <guid>https://destinokm.github.io/posts/tech/%E5%91%BD%E4%BB%A4%E8%A1%8Czsh/</guid>
+      <description>ZSH配置</description>
+    </item>
+    <item>
+      <title>Obsidian&#43;Hugo&#43;Github Page搭建博客</title>
+      <link>https://destinokm.github.io/posts/tech/obsidian&#43;hugo&#43;github-page%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Wed, 28 Feb 2024 16:23:30 +0000</pubDate>
+      <guid>https://destinokm.github.io/posts/tech/obsidian&#43;hugo&#43;github-page%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>自己研究的一套以Obsidian为主的写博客方案</description>
+    </item>
+    <item>
+      <title>Obsidian&#43;Hugo&#43;Github Page同步方案</title>
+      <link>https://destinokm.github.io/posts/tech/obsidian&#43;hugo&#43;github-page%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/</link>
+      <pubDate>Wed, 28 Feb 2024 16:23:30 +0000</pubDate>
+      <guid>https://destinokm.github.io/posts/tech/obsidian&#43;hugo&#43;github-page%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/</guid>
+      <description>自己研究的一套以Obsidian为主的写博客方案</description>
+    </item>
+  </channel>
+</rss>
