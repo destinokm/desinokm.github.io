@@ -6,12 +6,12 @@
     <description>Recent content in 博客 on 创果自留地</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 04 Mar 2024 07:20:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Mar 2024 07:29:58 +0000</lastBuildDate>
     <atom:link href="https://destinokm.github.io/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quasar</title>
       <link>https://destinokm.github.io/posts/tech/quasar/</link>
-      <pubDate>Mon, 04 Mar 2024 15:19:15 +0800</pubDate>
+      <pubDate>Mon, 04 Mar 2024 15:29:58 +0800</pubDate>
       <guid>https://destinokm.github.io/posts/tech/quasar/</guid>
       <description>Quasar，基于 Vue.js 的全栈框架</description>
     </item>
@@ -41,13 +41,6 @@
       <link>https://destinokm.github.io/posts/tech/obsidian&#43;hugo&#43;github-page%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Wed, 28 Feb 2024 16:23:30 +0000</pubDate>
       <guid>https://destinokm.github.io/posts/tech/obsidian&#43;hugo&#43;github-page%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
-      <description>自己研究的一套以Obsidian为主的写博客方案</description>
-    </item>
-    <item>
-      <title>Obsidian&#43;Hugo&#43;Github Page同步方案</title>
-      <link>https://destinokm.github.io/posts/tech/obsidian&#43;hugo&#43;github-page%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/</link>
-      <pubDate>Wed, 28 Feb 2024 16:23:30 +0000</pubDate>
-      <guid>https://destinokm.github.io/posts/tech/obsidian&#43;hugo&#43;github-page%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/</guid>
       <description>自己研究的一套以Obsidian为主的写博客方案</description>
     </item>
   </channel>
