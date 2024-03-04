@@ -6,8 +6,15 @@
     <description>Recent content in Tech on 创果自留地</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 04 Mar 2024 07:36:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Mar 2024 08:01:03 +0000</lastBuildDate>
     <atom:link href="https://destinokm.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo配置</title>
+      <link>https://destinokm.github.io/posts/tech/hugo%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Mon, 04 Mar 2024 16:01:03 +0800</pubDate>
+      <guid>https://destinokm.github.io/posts/tech/hugo%E9%85%8D%E7%BD%AE/</guid>
+      <description>Hugo配置</description>
+    </item>
     <item>
       <title>Quasar</title>
       <link>https://destinokm.github.io/posts/tech/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6quasar/</link>
@@ -28,13 +35,6 @@
       <pubDate>Mon, 04 Mar 2024 15:14:35 +0800</pubDate>
       <guid>https://destinokm.github.io/posts/tech/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</guid>
       <description>闲来无事，折腾博客</description>
-    </item>
-    <item>
-      <title>Hugo配置</title>
-      <link>https://destinokm.github.io/posts/tech/hugo%E9%85%8D%E7%BD%AE/</link>
-      <pubDate>Mon, 04 Mar 2024 15:11:55 +0800</pubDate>
-      <guid>https://destinokm.github.io/posts/tech/hugo%E9%85%8D%E7%BD%AE/</guid>
-      <description>Hugo配置</description>
     </item>
     <item>
       <title>吐槽Gridea</title>
