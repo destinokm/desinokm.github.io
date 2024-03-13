@@ -6,7 +6,14 @@
     <description>Recent content in 文章 on 创果自留地</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Wed, 13 Mar 2024 14:52:29 +0800</lastBuildDate>
     <atom:link href="https://destinokm.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>&lt;% tp.file.title %&gt;</title>
+      <link>https://destinokm.github.io/posts/%E5%8D%9A%E5%AE%A2%E6%A8%A1%E6%9D%BF/</link>
+      <pubDate>Wed, 13 Mar 2024 14:52:29 +0800</pubDate>
+      <guid>https://destinokm.github.io/posts/%E5%8D%9A%E5%AE%A2%E6%A8%A1%E6%9D%BF/</guid>
+      <description>&amp;lt;% tp.file.title %&amp;gt;</description>
+    </item>
   </channel>
 </rss>
