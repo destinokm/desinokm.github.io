@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>爬虫 on 创果自留地</title>
+    <link>https://destinokm.github.io/tags/%E7%88%AC%E8%99%AB/</link>
+    <description>Recent content in 爬虫 on 创果自留地</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 20 Mar 2024 14:22:52 +0000</lastBuildDate>
+    <atom:link href="https://destinokm.github.io/tags/%E7%88%AC%E8%99%AB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>微博爬虫</title>
+      <link>https://destinokm.github.io/posts/tech/%E5%BE%AE%E5%8D%9A%E7%88%AC%E8%99%AB/</link>
+      <pubDate>Wed, 20 Mar 2024 16:55:52 +0800</pubDate>
+      <guid>https://destinokm.github.io/posts/tech/%E5%BE%AE%E5%8D%9A%E7%88%AC%E8%99%AB/</guid>
+      <description>为了收集好看的小姐姐而启动的项目</description>
+    </item>
+  </channel>
+</rss>
